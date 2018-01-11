@@ -1,16 +1,16 @@
 # Plugin Status #
-**Requires at least:** 4.0
-**Tested up to:** 4.9.1
-**Stable tag:** 1.1.5
-**License:** GPLv2 or later
+**Requires at least:** 4.0  
+**Tested up to:** 4.9.1  
+**Stable tag:** 1.1.5  
+**License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+**Tags:** woocommerce, admin  
 
 This plugin has been fork from [claugiosanches/woocommerce-domination](https://github.com/claudiosanches/woocommerce-domination), however due to certain customisation, it no longer works as like normal repo, but as independent plugin on itself, to server my personal purpose.
 
 ## WooCommerce Domination ##
-**Contributors:** claudiosanches
+**Original Contributors:** claudiosanches  
 **Donate link:** http://claudiosmweb.com/doacoes/  
-**Tags:** woocommerce, admin  
 
 Allows the WooCommerce take the control of your WordPress admin
 
@@ -22,6 +22,10 @@ See more details in the screenshots.
 This plugin only works with WooCommerce 2.1.x or later.
 
 ## Changelog ##
+
+### 1.1.5 - 2018/01/11 ###
+
+* Label changes for admin menu, and the start for customisations. Original plugin's version stops at 1.1.4
 
 ### 1.1.4 - 2015/08/18 ###
 
