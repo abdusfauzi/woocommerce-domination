@@ -1,7 +1,8 @@
 {
-    "name": "claudiosanches/woocommerce-domination",
+	"name": "claudiosanches/woocommerce-domination",
 	"version": "1.1.5",
 	"description": "Allows the WooCommerce take the control of your WordPress admin",
-    "keywords": ["woocommerce", "wordpress"],
-    "license": "MIT"
+	"keywords": ["woocommerce", "wordpress"],
+	"license": "MIT",
+	"type": "wordpress-plugin"
 }
