@@ -28,7 +28,7 @@ class WC_Domination {
 	 *
 	 * @var string
 	 */
-	const VERSION = '1.1.4';
+	const VERSION = '1.1.5';
 
 	/**
 	 * Instance of this class.
