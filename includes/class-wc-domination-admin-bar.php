@@ -23,7 +23,7 @@ class WC_Domination_Admin_Bar {
 	public function admin_bar( $wp_admin_bar ) {
 		// Orders.
 		$orders_menu_count = '<span class="ab-icon dashicons-list-view"></span><span class="ab-label awaiting-mod pending-count count-0">0</span>';
-		$order_menu_title  = __( 'Orders', 'woocommerce-domination' );
+		$order_menu_title  = __( 'Invoices', 'woocommerce-domination' );
 		if ( $order_count = wc_processing_order_count() ) {
 			$orders_menu_count = '<span class="ab-icon dashicons-list-view"></span><span class="ab-label awaiting-mod pending-count count-' . $order_count . '">' . number_format_i18n( $order_count ) . '</span>';
 			$order_menu_title  = sprintf( _n( '%d order pending', '%d orders pending', $order_count, 'woocommerce-domination' ), $order_count );
@@ -58,7 +58,7 @@ class WC_Domination_Admin_Bar {
 				array(
 					'id'     => 'wc-customers-list',
 					'parent' => 'site-name',
-					'title'  => __( 'Customers', 'woocommerce-domination' ),
+					'title'  => __( 'Parents', 'woocommerce-domination' ),
 					'href'   => admin_url( 'admin.php?page=wc-customers-list' )
 				)
 			);

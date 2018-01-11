@@ -40,7 +40,7 @@ class WC_Domination_Admin {
 			$menu[] = array( '', 'read', 'separator-wc-domination2', '', 'wp-not-current-submenu wp-menu-separator' );
 
 			// Add custom orders menu.
-			$orders_menu_name = _x( 'Orders', 'Admin menu name', 'woocommerce-domination' );
+			$orders_menu_name = _x( 'Invoices', 'Admin menu name', 'woocommerce-domination' );
 			if ( $order_count = wc_processing_order_count() ) {
 				$orders_menu_name .= ' <span class="awaiting-mod update-plugins count-' . $order_count . '"><span class="processing-count">' . number_format_i18n( $order_count ) . '</span></span>';
 			}
@@ -51,7 +51,7 @@ class WC_Domination_Admin {
 			add_menu_page( __( 'Reports', 'woocommerce-domination' ),  __( 'Reports', 'woocommerce-domination' ) , 'view_woocommerce_reports', 'wc-reports', array( $wc_admin_menus, 'reports_page' ), 'dashicons-chart-area' );
 
 			// Add customers menu.
-			add_menu_page( __( 'Customers', 'woocommerce-domination' ), __( 'Customers', 'woocommerce-domination' ), 'manage_woocommerce', 'wc-customers-list', array( $this, 'customers_list_page' ), 'dashicons-groups' );
+			add_menu_page( __( 'Parents', 'woocommerce-domination' ), __( 'Parents', 'woocommerce-domination' ), 'manage_woocommerce', 'wc-customers-list', array( $this, 'customers_list_page' ), 'dashicons-groups' );
 		}
 	}
 
