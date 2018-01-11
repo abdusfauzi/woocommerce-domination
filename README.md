@@ -1,12 +1,16 @@
-# WooCommerce Domination #
-**Contributors:** claudiosanches  
+# Plugin Status #
+**Requires at least:** 4.0
+**Tested up to:** 4.9.1
+**Stable tag:** 1.1.5
+**License:** GPLv2 or later
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+
+This plugin has been fork from [claugiosanches/woocommerce-domination](https://github.com/claudiosanches/woocommerce-domination), however due to certain customisation, it no longer works as like normal repo, but as independent plugin on itself, to server my personal purpose.
+
+## WooCommerce Domination ##
+**Contributors:** claudiosanches
 **Donate link:** http://claudiosmweb.com/doacoes/  
 **Tags:** woocommerce, admin  
-**Requires at least:** 4.0  
-**Tested up to:** 4.3  
-**Stable tag:** 1.1.4  
-**License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
 Allows the WooCommerce take the control of your WordPress admin
 
@@ -16,31 +20,6 @@ This plugin puts WooCommerce to first in the WordPress admin, highlighting the o
 See more details in the screenshots.
 
 This plugin only works with WooCommerce 2.1.x or later.
-
-### Translate ###
-
-You can translate this plugin for your language in [Transifex](https://www.transifex.com/projects/p/woocommerce-domination/).
-
-### Contribute ###
-
-You can contribute to the source code in our [GitHub](https://github.com/claudiosmweb/woocommerce-domination) page.
-
-## Installation ##
-
-* Upload plugin files to your plugins folder, or install using WordPress built-in Add New Plugin installer;
-* Activate the plugin.
-
-## Frequently Asked Questions ##
-
-### What is the plugin license? ###
-
-* This plugin is released under a GPL license.
-
-## Screenshots ##
-
-### 1. WordPress admin. ###
-![1. WordPress admin.](http://ps.w.org/woocommerce-domination/assets/screenshot-1.png)
-
 
 ## Changelog ##
 
